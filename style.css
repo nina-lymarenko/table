@@ -1,0 +1,74 @@
+body{
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+.table{
+  width: 800px;
+  text-align: center;
+  font-size: 15px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: none;
+  line-height: 30px;
+}
+
+.thead{
+  background: linear-gradient(to right, rgb(3, 3, 80)20%, rgb(9, 59, 109), rgb(9, 12, 207), rgb(69, 143, 212), rgb(95, 196, 221));
+  border:1px solid;
+  color: white;
+}
+
+
+.tr{
+  border: 1px solid grey;
+  background-color: rgba(233, 231, 226, 0.918);
+}
+
+.p{
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+.button{
+  text-transform: uppercase;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid grey;
+}
+
+
+.td-1{ 
+  text-align: left; 
+}
+
+td {border: 1px solid grey;}
+
+th{border: 1px solid grey};
+
+.color-1 {
+  background-color: rgb(189, 182, 182);
+}
+.color-2 {
+  background-color: lightgray;
+}
+.color-3 {
+  background-color: rgb(189, 179, 179);
+}
+
+.radius-1{
+  border-radius: 20px 0 0 0;
+}
+.radius-2{
+  border-radius: 0 20px 0 0;
+}
+.radius-3{
+  border-radius: 0 0 20px 0;
+}
+.radius-4{
+  border-radius: 0 0 0 20px;
+}
+
+
+
+
+
