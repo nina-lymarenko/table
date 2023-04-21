@@ -1,74 +1,86 @@
-body{
-  box-sizing: border-box;
-  background-repeat: no-repeat;
+*{box-sizing: border-box;
 }
 
 .table{
-  width: 800px;
-  text-align: center;
-  font-size: 15px;
-  margin: 0 auto;
   border-collapse: collapse;
-  border: none;
-  line-height: 30px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 10px;
 }
 
 .thead{
-  background: linear-gradient(to right, rgb(3, 3, 80)20%, rgb(9, 59, 109), rgb(9, 12, 207), rgb(69, 143, 212), rgb(95, 196, 221));
-  border:1px solid;
-  color: white;
-}
+    color: white;
+    font-weight: bold;
+    line-height:30px;
+    font-size: 15px;
+  }
 
-
-.tr{
-  border: 1px solid grey;
-  background-color: rgba(233, 231, 226, 0.918);
-}
 
 .p{
-  font-size: 36px;
-  margin-bottom: 0;
+  margin-top: 25px;
+  margin-bottom: 3px;
+  font-size: 25px;
+}
+
+.td{
+  padding: 10px;
+}
+
+
+.th-1{
+  background-color: rgb(96, 126, 182);
+  vertical-align: middle;
+  border-top-left-radius: 10px;
+  
+}
+
+.th-2{
+  background-color: rgb(102, 94, 155);
+}
+
+.th-3{
+  background-color: rgb(61, 61, 131);
+}
+
+.th-4{
+  background-color: rgb(61, 61, 110);
+}
+
+.th-5{
+  background-color: rgb(75, 75, 126);
+  border-top-right-radius: 10px;
 }
 
 .button{
   text-transform: uppercase;
-  padding: 5px 10px 5px 10px;
   border: 1px solid grey;
+  font-size: 10px;
+  padding: 5px 10px;
+  background-color: rgb(223, 223, 217);
 }
 
-
-.td-1{ 
-  text-align: left; 
+.padding{
+  padding: 10px;
 }
 
-td {border: 1px solid grey;}
-
-th{border: 1px solid grey};
-
-.color-1 {
-  background-color: rgb(189, 182, 182);
+.radius-left{
+  border-bottom-left-radius: 10px;
 }
-.color-2 {
+
+.radius-right{
+  border-bottom-right-radius: 10px;
+}
+
+.color-1 td:nth-child(2n){
+  background-color: lightgray
+}
+
+.color-1 td:nth-child(2n+1){
+  background-color: rgb(199, 197, 197)
+}
+.color-2 td:nth-child(2n+1){
   background-color: lightgray;
 }
-.color-3 {
-  background-color: rgb(189, 179, 179);
+.color-2 td:nth-child(2n){
+  background-color: rgb(224, 223, 223)
 }
-
-.radius-1{
-  border-radius: 20px 0 0 0;
-}
-.radius-2{
-  border-radius: 0 20px 0 0;
-}
-.radius-3{
-  border-radius: 0 0 20px 0;
-}
-.radius-4{
-  border-radius: 0 0 0 20px;
-}
-
-
-
-
-
